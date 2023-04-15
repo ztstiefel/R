@@ -8,9 +8,9 @@ library("janitor")
 install.packages("ggplot2")
 library("ggplot2")
 # set working directory to location of data (in this case an .xlsx file)
-setwd("C:\\Users\\ztsti\\Downloads")
+setwd("<USER_DIRECTORY")
 # read .xlsx (Sheet2" contains the data) into variable 'demoData'
-demoData <- read_excel('TMSC 2022-2023 GP3 Failure Analysis-demo_data.xlsx', sheet="Sheet2")
+demoData <- read_excel('ethn_ses_data.xlsx', sheet="Sheet2")
 
 # clean column names to be more user-friendly
 demoData %>% clean_names()
