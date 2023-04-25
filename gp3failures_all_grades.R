@@ -10,10 +10,10 @@ install.packages("forcats")
 library("forcats")
 
 # set working directory to location of data
-setwd("C:\\Users\\ztsti\\Downloads")
+setwd("C:\\user\\directory")
 
 # import .csv file
-gp3cf <- read.csv('TMSC 2022-2023 GP3 Failure Analysis - original.csv')
+gp3cf <- read.csv('user-grades-report.csv')
 
 # clean column names
 gp3cf = clean_names(gp3cf)
